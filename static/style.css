@@ -173,11 +173,16 @@ i.menu-mobile {
 *::-webkit-scrollbar-track {
     width: 12px;
     box-shadow: inset 0 0 .3rem #00000050;
-    background-color: #fff;
+    background-color: #1D1C1A;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #000000;
+    background-color: #E3E3E3;
+}
+
+:root {
+    scrollbar-color: #E3E3E3 #1D1C1A !important;
+    scrollbar-width: thin !important;
 }
 
 .section-bg {
